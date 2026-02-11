@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useForm } from "react-hook-form"
-import GoogleLogin from "../../components/Social/Googlelogin"
+import GoogleLogin from "../../components/Social/GoogleLogin"
 import { FaUser, FaEnvelope, FaLock, FaPhone, FaVenusMars, FaImage, FaMapMarkerAlt } from "react-icons/fa"
 import { useNavigate } from 'react-router-dom'
 import useAuth from '../../hooks/useAuth'
