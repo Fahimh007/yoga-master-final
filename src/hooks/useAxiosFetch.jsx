@@ -2,7 +2,7 @@ import { useEffect, useMemo } from "react";
 import axios from "axios";
 
 const useAxiosFetch = () => {
-  const axiosInstance = useMemo(() => axios.create({ baseURL: "https://yoga-master-1.onrender.com/" }), []);
+  const axiosInstance = useMemo(() => axios.create({ baseURL: "https://yoga-master-1.onrender.com" }), []);
 
   useEffect(() => {
     const reqId = axiosInstance.interceptors.request.use(config => config, err => Promise.reject(err));
